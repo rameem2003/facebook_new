@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+/* Main CSS */
+.main{
+    background-color: #ddd;
+}
+.containt{
+    display: flex;
+    padding: 150px 10px;
+}
+.left{
+    width: 40%;
+}
+.left h1{
+    margin-top: 20px;
+    font-size: 62px;
+    color: blue;
+}
+.left h2{
+    font-size: 30px;
+    margin-top: 20px;
+    width: 600px;
+}
+.right{
+    width: 40%;
+    margin-left: 220px;
+    text-align: center;
+}
+.right .box{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 380px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.right .box input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 17px;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    outline: none;
+}
+.right .box input[type="submit"]{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.right .box .create input{
+    margin-top: 20px;
+    width: 80%;
+    background-color: #36a420;
+    text-align: center;
+    display: inline-block;
+}
+
+.right .box a{
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 12px;
+    display: block;
+}
+.right span{
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.right span a{
+    display: inline-block;
+    text-decoration: none;
+}
+/* Footer CSS */
+
+.footer{
+    margin-top: 10px;
+}
+.link-line{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.link-line ul{
+    list-style-type: none;
+}
+.link-line ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.link-line ul li:last-child a{
+    border: 1px solid;
+    padding: 8px;
+    border-color: #ccd0d5;
+    color: #4b4f56;
+}
+
+.link-line ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+}
+.link-line ul li a:hover{
+    text-decoration: underline;
+}
+
+.link-line-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.link-line-2 ul{
+    list-style-type: none;
+}
+.link-line-2 ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.link-line-2 ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+.link-line-2 ul li a:hover{
+    text-decoration: underline;
+}
